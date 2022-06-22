@@ -1,0 +1,12 @@
+<input matInput placeholder="page" value="{{page+1}}" type="number" [(ngModel)]="pagination">
+<button mat-button (click)="rechercherpage()"><mat-icon>search</mat-icon></button>
+<button mat-button onClick="selectiondepersonnage(8)"><mat-icon>payment</mat-icon></button>
+
+
+<br>
+<br>
+Séléctionnez un personnage:
+<mat-grid-list cols="2" rowHeight="1:1" >
+<div id="affichageboutons" ></div>
+</mat-grid-list>
+
